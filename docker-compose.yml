@@ -1,6 +1,6 @@
 services:
   datastore:
-    image: mongo:3.0.2
+    image: mongo
     ports:
       - "27017:27017"
   pythonfrontend:
